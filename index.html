@@ -12,15 +12,18 @@
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section>
+    <section >
+        <a name="home"></a>
         <nav>
             <a href="#" class="logo">Arjon Nill</a>
             <!--menu-->
             <ul>
-                <li><a href="#" class="activate">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Interests</a></li>
+                <li><a href="#home" class="activate">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#exp">Experiences</a></li>
+                <li><a href="#contact">Contacts</a></li>
+
             </ul>
             <!--bars-->
             <div class = "toggle"></div>
@@ -39,7 +42,7 @@
         <img src="images/model2.png" class = "model" alt="model">
 
     </section>
-    <section>
+    <section id = "about">
         <!--About-->
         <div class="about-container">
             <img src ="images/Profile1.png.png">
@@ -58,11 +61,13 @@
 		        <button><a class="l-button" target="_blank" href="https://github.com/arjonnill07" >Github</a>
                 </button>
             </div>   
-        </div> 
-        <!--services-------> 
-        <div class ="services">
+        </div>
+    </section>     
+        <!--experiences-------> 
+    <section id= "exp">
+        <div class ="experiences">
             <!--service text-->
-            <div class="services-text ">
+            <div class="experiences-text ">
                 <p>Experiences</p>
                 <p>Qualites and Skills</p>
                 <p>I have experience in python development, web scraping, Database, SQL queries,C++, CSS, HTML, javascript, C#, java and ASP.net core.
@@ -96,9 +101,11 @@
             </div>
 
         </div>    
+    </section>
 
 
         <!--if you have any project in your mind contact me-->
+    <section id= "achievements" >    
         <div class="contact-me">
             <p>Wanna know about my achievements ?</p>
             <br>
@@ -132,8 +139,9 @@
         
 
         <!--footer--------------->
+        
         <footer>
-
+            <a name = 'contact'></a>
             <!--heading-->
             <p>arjonnill07@gmail.com</p>
 
